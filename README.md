@@ -1,4 +1,4 @@
-# Chaos in the Bifurcation Diagram
+# Beautiful Chaos in the Bifurcation Diagram
 
 ![Bifurcation Chaos](images/chaos_preview.png)
 
