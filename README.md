@@ -4,8 +4,6 @@
 
 These images capture the chaotic regions of various bifurcation diagrams. Each point represents one of the final iterations of the equation at a given parameter value. Where the system is stable, points cluster into clean lines. Where chaos reigns, they disperse into intricate structures—fractals emerging from pure mathematics.
 
-The darkness at the edges is not emptiness. It is where the function escapes to infinity, leaving behind these patterns as artifacts of its departure.
-
 ---
 
 ![Bifurcation](<images/r*np.exp(-.5*(1-x)**2)*np.sin(.3*np.exp(x**2)).png>)
