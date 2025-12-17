@@ -1,8 +1,4 @@
-# Beautiful Chaos in the Bifurcation Diagram
-
-![Bifurcation Chaos](images/chaos_preview.png)
-
-*Function: `r * |ln(x) * cos(0.3 * e^(x²))|`*
+# Beautiful Chaos in Bifurcation Diagrams
 
 ## What is a Bifurcation Diagram?
 
@@ -25,6 +21,44 @@ By combining exponentials, logarithms, and trigonometric functions in various ar
 These images capture the chaotic regions of various bifurcation diagrams. Each point represents one of the final iterations of the equation at a given parameter value. Where the system is stable, points cluster into clean lines. Where chaos reigns, they disperse into intricate structures—fractals emerging from pure mathematics.
 
 The darkness at the edges is not emptiness. It is where the function escapes to infinity, leaving behind these patterns as artifacts of its departure.
+
+---
+
+![Bifurcation](<images/r*np.exp(-.5*(1-x)**2)*np.sin(.3*np.exp(x**2)).png>)
+
+*$r \cdot e^{-0.5(1-x)^2} \cdot \sin(0.3 \cdot e^{x^2})$*
+
+---
+
+![Bifurcation](<images/r*np.exp(-.5*(1-x)**2)*np.cos(.37*np.exp(x)**2).png>)
+
+*$r \cdot e^{-0.5(1-x)^2} \cdot \cos(0.37 \cdot (e^x)^2)$*
+
+---
+
+![Bifurcation](<images/r*np.exp(-0.7*(1-x)**2)*np.sin(np.exp((x)**2)).png>)
+
+*$r \cdot e^{-0.7(1-x)^2} \cdot \sin(e^{x^2})$*
+
+---
+
+![Bifurcation](<images/r*np.exp(-(.5*x)**2)*np.sin(.2*np.exp(x**2)).png>)
+
+*$r \cdot e^{-(0.5x)^2} \cdot \sin(0.2 \cdot e^{x^2})$*
+
+---
+
+![Bifurcation](<images/r*np.exp(-(1-x)**2)*np.sin(np.exp((x)**2)).png>)
+
+*$r \cdot e^{-(1-x)^2} \cdot \sin(e^{x^2})$*
+
+---
+
+![Bifurcation](<images/r*np.absolute(np.log(x)*np.cos(.3*np.exp(x**2))).png>)
+
+*$r \cdot |\ln(x) \cdot \cos(0.3 \cdot e^{x^2})|$*
+
+---
 
 ## Functions Explored
 
