@@ -1,5 +1,49 @@
 # Beautiful Chaos in Bifurcation Diagrams
 
+## The Images
+
+These images capture the chaotic regions of various bifurcation diagrams. Each point represents one of the final iterations of the equation at a given parameter value. Where the system is stable, points cluster into clean lines. Where chaos reigns, they disperse into intricate structures—fractals emerging from pure mathematics.
+
+The darkness at the edges is not emptiness. It is where the function escapes to infinity, leaving behind these patterns as artifacts of its departure.
+
+---
+
+![Bifurcation](<images/r*np.exp(-.5*(1-x)**2)*np.sin(.3*np.exp(x**2)).png>)
+
+$$r \cdot e^{-0.5(1-x)^2} \cdot \sin(0.3 \cdot e^{x^2})$$
+
+---
+
+![Bifurcation](<images/r*np.exp(-.5*(1-x)**2)*np.cos(.37*np.exp(x)**2).png>)
+
+$$r \cdot e^{-0.5(1-x)^2} \cdot \cos(0.37 \cdot (e^x)^2)$$
+
+---
+
+![Bifurcation](<images/r*np.exp(-0.7*(1-x)**2)*np.sin(np.exp((x)**2)).png>)
+
+$$r \cdot e^{-0.7(1-x)^2} \cdot \sin(e^{x^2})$$
+
+---
+
+![Bifurcation](<images/r*np.exp(-(.5*x)**2)*np.sin(.2*np.exp(x**2)).png>)
+
+$$r \cdot e^{-(0.5x)^2} \cdot \sin(0.2 \cdot e^{x^2})$$
+
+---
+
+![Bifurcation](<images/r*np.exp(-(1-x)**2)*np.sin(np.exp((x)**2)).png>)
+
+$$r \cdot e^{-(1-x)^2} \cdot \sin(e^{x^2})$$
+
+---
+
+![Bifurcation](<images/r*np.absolute(np.log(x)*np.cos(.3*np.exp(x**2))).png>)
+
+$$r \cdot |\ln(x) \cdot \cos(0.3 \cdot e^{x^2})|$$
+
+---
+
 ## What is a Bifurcation Diagram?
 
 A bifurcation diagram is a visual map of how a dynamical system's long-term behavior changes as you vary a parameter. Start with a simple equation, iterate it thousands of times, and plot where the values eventually settle.
@@ -15,50 +59,6 @@ The classic example is the logistic map: `x(n+1) = r * x(n) * (1 - x(n))`. Its b
 But the logistic map is just one function. This project explores others.
 
 By combining exponentials, logarithms, and trigonometric functions in various arrangements—`e^x`, `cos(x)`, `ln(x)`—I discovered that many produce their own chaotic regions with entirely different visual signatures. Each function carves its own path through the parameter space, generating unique patterns as iterations accumulate and values scatter toward infinity.
-
-## The Images
-
-These images capture the chaotic regions of various bifurcation diagrams. Each point represents one of the final iterations of the equation at a given parameter value. Where the system is stable, points cluster into clean lines. Where chaos reigns, they disperse into intricate structures—fractals emerging from pure mathematics.
-
-The darkness at the edges is not emptiness. It is where the function escapes to infinity, leaving behind these patterns as artifacts of its departure.
-
----
-
-![Bifurcation](<images/r*np.exp(-.5*(1-x)**2)*np.sin(.3*np.exp(x**2)).png>)
-
-*$r \cdot e^{-0.5(1-x)^2} \cdot \sin(0.3 \cdot e^{x^2})$*
-
----
-
-![Bifurcation](<images/r*np.exp(-.5*(1-x)**2)*np.cos(.37*np.exp(x)**2).png>)
-
-*$r \cdot e^{-0.5(1-x)^2} \cdot \cos(0.37 \cdot (e^x)^2)$*
-
----
-
-![Bifurcation](<images/r*np.exp(-0.7*(1-x)**2)*np.sin(np.exp((x)**2)).png>)
-
-*$r \cdot e^{-0.7(1-x)^2} \cdot \sin(e^{x^2})$*
-
----
-
-![Bifurcation](<images/r*np.exp(-(.5*x)**2)*np.sin(.2*np.exp(x**2)).png>)
-
-*$r \cdot e^{-(0.5x)^2} \cdot \sin(0.2 \cdot e^{x^2})$*
-
----
-
-![Bifurcation](<images/r*np.exp(-(1-x)**2)*np.sin(np.exp((x)**2)).png>)
-
-*$r \cdot e^{-(1-x)^2} \cdot \sin(e^{x^2})$*
-
----
-
-![Bifurcation](<images/r*np.absolute(np.log(x)*np.cos(.3*np.exp(x**2))).png>)
-
-*$r \cdot |\ln(x) \cdot \cos(0.3 \cdot e^{x^2})|$*
-
----
 
 ## Functions Explored
 
